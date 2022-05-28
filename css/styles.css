@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'), 
+    url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('../fonts/hind-madurai-v11-latin-500.woff2') format('woff2'), 
+    url('../fonts/hind-madurai-v11-latin-500.woff') format('woff');
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'), 
+    url('../fonts/hind-madurai-v11-latin-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'), 
+    url('../fonts/hind-madurai-v11-latin-600.woff') format('woff');
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'), 
+    url('../fonts/hind-madurai-v11-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), 
+    url('../fonts/roboto-v30-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), 
+    url('../fonts/roboto-v30-latin-700.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 16px;
+    padding-top: 19px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.container {
+    max-width: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* __________________- */
+
+.hero {
+    background-color: hsla(343, 83%, 82%, 0.563);
+    padding: 260px 0;
+    background-image: url("./../images/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 320px) calc(100%);
+}
+
+.hero-container {
+}
+
+.hero-left-wrapper {
+    width: 665px;
+}
+
+.hero-heading {
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%; 
+    color: #0F0101;
+    opacity: 0.9;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.hero-heading-span {
+    color: #D23166;
+}
+
+.hero_text {
+    width: 523px;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin: 0;
+}
+
+/* __________ */
+
+.product {
+}
+
+.product_container {
+}
+
+.product_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.product_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.product_img {
+    width: 580px;
+    height: 415px;
+    object-fit: contain;
+}
+
+.product_item-info {
+    width: 454px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_item-info {
+}
+
+.product_item:nth-child(2n) .product_item-info{
+    order: -1;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.product_item_heading {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.product_item_text {
+    line-height: 24px;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.product_img2 {
+    mix-blend-mode: multiply;
+}
